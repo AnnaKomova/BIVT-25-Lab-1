@@ -1,4 +1,6 @@
-﻿namespace Lab1
+using static System.Math;
+
+namespace Lab1
 {
     public class Blue
     {
@@ -7,7 +9,10 @@
             bool answer = false;
 
             // code here
-
+            if (Sign(a) == Sign(b))
+            {
+                answer = true;
+            }
             // end
 
             return answer;
@@ -17,7 +22,10 @@
             bool answer = false;
 
             // code here
-
+            if (d%1!=0)
+            {
+                answer = true;
+            }
             // end
 
             return answer;
@@ -27,7 +35,7 @@
             bool answer = false;
 
             // code here
-
+            
             // end
 
             return answer;
