@@ -35,7 +35,7 @@ namespace Lab1
             bool answer = false;
 
             // code here
-            if (a % b == 0)
+            if (b != 0 && a % b == 0)
             {
                 answer = true;
             }
@@ -155,3 +155,4 @@ namespace Lab1
         }
     }
 }
+
